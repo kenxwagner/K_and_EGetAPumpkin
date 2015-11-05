@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Play</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Name</string>
+    <string name="help_k_and_e"><![CDATA[Help K & E]]></string>
+    <string name="pumpkin_patch_title_image">Title image with grass, three pumpkins, and a sign that says \'Pumpkin Patch\'</string>
+    <string name="user_hint">Enter Your Name To Begin</string>
+    <string name="title_activity_story">Story Activity</string>
+    <string name="title_name">title</string>
+</resources>
