@@ -16,7 +16,8 @@ public class Story {
         mPages[0].setText("temp ipsem lorem");
         mPages[0].setChoice1(new Choice());
         mPages[0].setChoice2(new Choice());
-        //more to fix
+        //more to fix and more to do
+
 
 
 
