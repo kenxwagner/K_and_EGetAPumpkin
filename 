@@ -1,0 +1,63 @@
+[33mcommit 6bc7c1e83efdf75821d3c86a0f90a54b8ccc3473[m
+Merge: abfda16 4659851
+Author: kenxwagner <ken_xwagner@hotmail.com>
+Date:   Fri Nov 6 08:53:44 2015 -0800
+
+    Merge branch 'master' of https://github.com/kenxwagner/K_and_EGetAPumpkin
+
+[33mcommit abfda16e616768401bf4cd628158e4b0c18c65ce[m
+Author: kenxwagner <ken_xwagner@hotmail.com>
+Date:   Fri Nov 6 07:44:15 2015 -0800
+
+    Something wrong here.
+
+[33mcommit 4659851317ad03246e138ff88d86f79738a77d47[m
+Author: Ken Wagner <kenwagner@hotmail.com>
+Date:   Fri Nov 6 07:10:57 2015 -0800
+
+    Create ReadMe.md
+    
+    Just putting in the readme file
+
+[33mcommit c9c8d0b7a4772057df4fc157011f2699f918b43a[m
+Merge: 8e2a964 07f5206
+Author: Ken Wagner <kenwagner@hotmail.com>
+Date:   Thu Nov 5 16:24:19 2015 -0800
+
+    Merge branch 'master' of https://github.com/kenxwagner/K_and_EGetAPumpkin
+
+[33mcommit 8e2a9648b79a034bc49532fc74819578b99c006d[m
+Author: kenxwagner <ken_xwagner@hotmail.com>
+Date:   Thu Nov 5 15:57:31 2015 -0800
+
+    Add to the mess
+
+[33mcommit 07f5206071bce79e746e9accf0557aa932789b6f[m
+Author: Ken Wagner <kenwagner@hotmail.com>
+Date:   Thu Nov 5 15:56:44 2015 -0800
+
+    Create License File
+    
+    Created License File
+
+[33mcommit 9169ab1cde476551e13ad9287521517e5c3969a9[m
+Author: Ken Wagner <kenwagner@hotmail.com>
+Date:   Thu Nov 5 15:55:57 2015 -0800
+
+    Create ReadMe.md
+    
+    Created the ReadMe.md
+
+[33mcommit 64c1dd9f3a9782901ce3cdbe5079dd12b2f4b117[m
+Author: Ken Wagner <kenwagner@hotmail.com>
+Date:   Thu Nov 5 15:52:24 2015 -0800
+
+    story time
+    
+    publish soon
+
+[33mcommit cd88d36ece298c4b9f2172a5c5de539e74ee62b9[m
+Author: Ken Wagner <ken_xwagner@hotmail.com>
+Date:   Thu Nov 5 15:20:26 2015 -0800
+
+    :octocat: Added .gitattributes & .gitignore files
