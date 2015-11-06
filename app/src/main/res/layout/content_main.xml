@@ -16,7 +16,7 @@
         android:id="@+id/titleImageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@mipmap/pumpkin_patch_sign_toon2"
+        android:src="@mipmap/title_image"
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:contentDescription="@string/pumpkin_patch_title_image"/>

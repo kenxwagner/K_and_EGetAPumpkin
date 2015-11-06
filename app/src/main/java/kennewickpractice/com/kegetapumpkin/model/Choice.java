@@ -5,7 +5,12 @@ package kennewickpractice.com.kegetapumpkin.model;
  */
 public class Choice {
     private String mText;
-    private int mNext;
+    private int mNextPage;
+
+    public Choice(String text, int nextPage ) {
+        mText = text;
+        mNextPage = nextPage;
+    }
 
     public String getText() {
         return mText;
@@ -15,11 +20,11 @@ public class Choice {
         mText = text;
     }
 
-    public int getNext() {
-        return mNext;
+    public int getNextPage() {
+        return mNextPage;
     }
 
-    public void setNext(int next) {
-        mNext = next;
+    public void setNextPage(int nextPage) {
+        mNextPage = nextPage;
     }
 }

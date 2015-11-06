@@ -10,6 +10,15 @@ public class Page {
     private Choice mChoice2;
     private Choice mChoice3;
 
+    public Page(int imageId, String text, Choice choice1, Choice choice2, Choice choice3){
+        mImageId = imageId;
+        mText = text;
+        mChoice1 = choice1;
+        mChoice2 = choice2;
+        mChoice3 = choice3;
+
+    }
+
     public int getImageId() {
         return mImageId;
     }

@@ -10,8 +10,6 @@ import kennewickpractice.com.kegetapumpkin.model.Page;
 
 public class StoryActivity extends AppCompatActivity {
 
-
-
     public static final String TAG = StoryActivity.class.getSimpleName();
 
     @Override
@@ -27,7 +25,6 @@ public class StoryActivity extends AppCompatActivity {
             name = "Friend";
         }
         Log.d(TAG,name);
-
 
     }
 
