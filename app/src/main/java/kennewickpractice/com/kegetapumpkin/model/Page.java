@@ -9,6 +9,7 @@ public class Page {
     private Choice mChoice1;
     private Choice mChoice2;
     private Choice mChoice3;
+    private boolean mIsFinal = false;
 
     public Page(int imageId, String text, Choice choice1, Choice choice2, Choice choice3){
         mImageId = imageId;
@@ -16,6 +17,24 @@ public class Page {
         mChoice1 = choice1;
         mChoice2 = choice2;
         mChoice3 = choice3;
+
+    }
+
+    public boolean ismIsFinal() {
+        return mIsFinal;
+    }
+
+    public void setmIsFinal(boolean mIsFinal) {
+        this.mIsFinal = mIsFinal;
+    }
+
+    public Page(int imageId, String text) {
+        mImageId = imageId;
+        mText = text;
+        mChoice1 = null;
+        mChoice2 = null;
+        mChoice3 = null;
+        mIsFinal = true;
 
     }
 
