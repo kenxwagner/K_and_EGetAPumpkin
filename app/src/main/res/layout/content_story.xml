@@ -49,12 +49,4 @@
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button3"
-        android:layout_above="@+id/button2"
-        android:layout_alignLeft="@+id/storyTextView"
-        android:layout_alignStart="@+id/storyTextView" />
 </RelativeLayout>

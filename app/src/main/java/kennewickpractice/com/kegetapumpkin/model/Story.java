@@ -8,51 +8,97 @@ import kennewickpractice.com.kegetapumpkin.R;
 public class Story {
     private Page[] mPages;
 
-    public Story() {
-        mPages = new Page[7];
+    public Story(){
+        mPages = new Page[11];
+
 
         mPages[0] = new Page(
                 R.mipmap.page0,
-                "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange because there hasn't been a colony there in years. Even stranger, it's calling you by name: \"Help me, %1$s, you're my only hope.\"",
-                new Choice("Stop and investigate", 1),
-                new Choice("Continue home to Earth", 2),
-                new Choice(null, 0));
+                "%1$s, K and E would like to get a pumpkin, can you help them? Should they ask to go to the Coffee Shop or go to the Pumpkin Patch?",
+                new Choice("Go to the Coffee Shop", 1),
+                new Choice("Go to the Pumpkin Patch",  2),
+                new Choice(null,3));
 
-        mPages[1] = new Page(
+
+        mPages[1]=new Page(
                 R.mipmap.page1,
-                "You deftly land your ship near where the distress signal originated. You didn't notice anything strange on your fly-by, but there is a cave in front of you. Behind you is an abandoned rover from the early 21st century.",
-                new Choice("Explore the cave", 3),
-                new Choice("Explore the rover", 4),
-                new Choice(null, 0));
+                "You have arrived at the Coffee Shop, the parents of K and E get coffee. K and E get hot chocolate, and so do you,  %1$s!  Finish your drink and we will go to the Pumpkin Patch.",
+                new Choice("Go to the Pumpkin Patch",  1),
+                new Choice("null",  2),
+                new Choice(null,  3));
 
-        mPages[2] = new Page(
+
+        mPages[2]=new Page(
                 R.mipmap.page2,
-                "You continue your course to Earth. Two days later, you receive a transmission from HQ saying that they have detected some sort of anomaly on the surface of Mars near an abandoned rover. They ask you to investigate, but ultimately the decision is yours because your mission has already run much longer than planned and supplies are low.",
-                new Choice("Head back to Mars to investigate", 4),
-                new Choice("Continue home to Earth", 6),
-        new Choice(null, 0));
+                "Welcome to the Pumpkin Patch! You can either look for pumpkins after the Corn Maze or you can ride the Tractor to the pumpkins.",
+                new Choice("Go to the Corn Maze",  1),
+                new Choice("Go on the Tractor Ride",  2),
+                new Choice(null,  3));
 
-        mPages[3] = new Page(
+
+        mPages[3]=new Page(
                 R.mipmap.page3,
-                "Your EVA suit is equipped with a headlamp, which you use to navigate the cave. After searching for a while your oxygen levels are starting to get pretty low. You know you should go refill your tank, but there's a very faint light up ahead.",
-                new Choice("Refill at ship and explore the rover", 4),
-                new Choice("Continue towards the faint light", 5),
-                new Choice(null, 0));
+                "You are in the Corn Maze, but it is much bigger than K and E thought it would be. What should we do?",
+                new Choice("Go Back to the Pumpkin Patch",  1),
+                new Choice("Finish the Corn Maze",  2),
+                new Choice(null,  3));
 
-        mPages[4] = new Page(
+
+        mPages[4]=new Page(
                 R.mipmap.page4,
-                "The rover is covered in dust and most of the solar panels are broken. But you are quite surprised to see the on-board system booted up and running. In fact, there is a message on the screen: \"%1$s, come to 28.543436, -81.369031.\" Those coordinates aren't far, but you don't know if your oxygen will last there and back.",
-                new Choice("Explore the coordinates", 5),
-                new Choice("Return to Earth", 6),
-        new Choice(null, 0));
+                "You are riding the tractor and it stops three times. Which one would you like to take?",
+                new Choice("Get off at the First Stop",  1),
+                new Choice("Get off at the Second Stop",  2),
+                new Choice("Get off at the Third Stop",  3));
 
-        mPages[5] = new Page(
+
+        mPages[5]=new Page(
                 R.mipmap.page5,
-                "After a long walk slightly uphill, you end up at the top of a small crater. You look around, and are overjoyed to see your favorite android, %1$s-S1124. It had been lost on a previous mission to Mars! You take it back to your ship and fly back to Earth.");
+                "You found  a Giant Pumpkin! Sorry, it is too big for anyone to pick it up. Try a different area.",
+                new Choice("Go Back to the Tractor Ride",  1),
+                new Choice("Take the Left Path",  2),
+                new Choice("Take the Right Path",  3));
 
-        mPages[6] = new Page(
+
+        mPages[6]=new Page(
                 R.mipmap.page6,
-                "You arrive home on Earth. While your mission was a success, you forever wonder what was sending that signal. Perhaps a future mission will be able to investigate...");
+                "Ugh! What is that smell? You brought K and E to where the pumpkin patch owners left rotten pumpkins out. These are not the right pumpkins.",
+                new Choice("Go Back to the Tractor Ride",  1),
+                new Choice("Take the Left Path",  2),
+                new Choice("Take the Right Path",  3));
+
+
+        mPages[7]=new Page(
+                R.mipmap.page7,
+                "K and E are happy! You found the Right Pumpkin!",
+                new Choice("Buy it",  1),
+                new Choice("Go Back to the Tractor Ride",  2),
+                new Choice(null,  3));
+
+
+        mPages[8]=new Page(
+                R.mipmap.page8,
+                "K and E hand over the pumpkin so that their parents can buy it. They are happy you came along. ",
+                new Choice("next page",  1),
+                new Choice("null",  2),
+                new Choice(null,  3));
+
+
+        mPages[9]=new Page(
+                R.mipmap.page9,
+                "Thanks your you help %1$s, K and E would like to thank you.",
+                new Choice("The last page",  1),
+                new Choice("null",  2),
+                new Choice(null,  3));
+
+
+        mPages[10]=new Page(
+                R.mipmap.page10,
+                "Happy Halloween",
+                new Choice("Close",  1),
+                new Choice("null",  2),
+                new Choice(null,  3));
+
     }
 
 
