@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f7ce65-6b53-415f-8a59-0f18ca90ce12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/kennewickpractice/com/kegetapumpkin/ui/StoryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/kennewickpractice/com/kegetapumpkin/ui/StoryActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="K_and_EGetAPumpkin.iws" />
@@ -1787,7 +1786,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447108176520</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gotta go">
+      <created>1447113753818</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1447113753818</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1874,7 +1879,8 @@
     <MESSAGE value="more to work on" />
     <MESSAGE value="work work work" />
     <MESSAGE value="more to go" />
-    <option name="LAST_COMMIT_MESSAGE" value="more to go" />
+    <MESSAGE value="gotta go" />
+    <option name="LAST_COMMIT_MESSAGE" value="gotta go" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
