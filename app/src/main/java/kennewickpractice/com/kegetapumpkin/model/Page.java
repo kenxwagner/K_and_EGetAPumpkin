@@ -25,7 +25,7 @@ public class Page {
     }
 
     public void setFinal(boolean isFinal) {
-        this.mIsFinal = isFinal;
+        mIsFinal = isFinal;
     }
 
     public Page(int imageId, String text) {
@@ -42,8 +42,8 @@ public class Page {
         return mImageId;
     }
 
-    public void setImageId(int imageId) {
-        mImageId = imageId;
+    public void setImageId(int id) {
+        mImageId = id;
     }
 
     public String getText() {

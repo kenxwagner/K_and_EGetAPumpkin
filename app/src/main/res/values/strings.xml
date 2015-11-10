@@ -6,5 +6,6 @@
     <string name="pumpkin_patch_title_image">Title image with grass, three pumpkins, and a sign that says \'Pumpkin Patch\'</string>
     <string name="user_hint">Enter Your Name To Begin</string>
     <string name="title_activity_story">Story Activity</string>
-    <string name="title_name">title</string>
+    <string name="title_name">Title</string>
+    <string name="temp_fill_text">You have arrived at the Coffee Shop, the parents of K and E get coffee. K and E get hot chocolate, and so do you, %1$s!  Finish your drink and we will go to the Pumpkin Patch.</string>
 </resources>

@@ -24,12 +24,12 @@
         android:layout_below="@+id/storyImageView"
         android:layout_alignLeft="@+id/storyImageView"
         android:layout_alignStart="@+id/storyImageView"
-        android:text="You have arrived at the Coffee Shop, the parents of K and E get coffee. K and E get hot chocolate, and so do you, %1$s!  Finish your drink and we will go to the Pumpkin Patch."
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:paddingTop="15dp"
         android:lineSpacingMultiplier="1.2"
-        android:textColor="@android:color/black"/>
+        android:textColor="@android:color/black"
+        android:text="@string/temp_fill_text"/>
 
     <Button
         android:layout_width="match_parent"
@@ -56,7 +56,8 @@
         android:background="@android:color/white"
         android:clickable="false"
         android:visibility="visible"
-        android:textColor="#da4a07"/>
+        android:textColor="#da4a07"
+        android:elegantTextHeight="true"/>
 
     <Button
         android:layout_width="match_parent"
@@ -68,6 +69,7 @@
         android:background="@android:color/white"
         android:clickable="false"
         android:visibility="visible"
-        android:textColor="#da4a07"/>
+        android:textColor="#da4a07"
+        android:elegantTextHeight="true"/>
 
 </RelativeLayout>

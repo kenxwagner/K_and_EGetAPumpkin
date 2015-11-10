@@ -80,8 +80,8 @@ public class Story {
                 R.mipmap.page8,
                 "K and E hand over the pumpkin so that their parents can buy it. They are happy you came along. ",
                 new Choice("next page",  9),
-                new Choice("0",  99),
-                new Choice("0",  99));
+                new Choice("",  99),
+                new Choice("",  99));
 
 
         mPages[9]=new Page(

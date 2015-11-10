@@ -62,10 +62,10 @@ public class StoryActivity extends AppCompatActivity {
         mTextView.setText(pageText);
 
         if (mCurrentPage.isFinal()){
-            mChoice2.setVisibility(View.GONE);
 
+            mChoice1.setVisibility(View.INVISIBLE);
+            mChoice2.setVisibility(View.INVISIBLE);
             mChoice3.setText("PLAY AGAIN");
-            mChoice1.setVisibility(View.GONE);
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
