@@ -75,10 +75,19 @@ public class StoryActivity extends AppCompatActivity {
             });
         }
         else {
-            // and if to take care of empty text
-            mChoice1.setText(mCurrentPage.getChoice1().getText());
-            mChoice2.setText(mCurrentPage.getChoice2().getText());
-            mChoice3.setText(mCurrentPage.getChoice3().getText());
+
+            if (mCurrentPage.getChoice2() == null) {
+                mChoice1.setVisibility(View.GONE);
+                mChoice2.setVisibility(View.GONE);
+            }
+            else if (mCurrentPage.getChoice1() == null) {
+                mChoice1.setVisibility(View.GONE);
+            }
+            else {// and if to take care of empty text
+                mChoice1.setText(mCurrentPage.getChoice1().getText());
+                mChoice2.setText(mCurrentPage.getChoice2().getText());
+                mChoice3.setText(mCurrentPage.getChoice3().getText());
+            }
 
 
 
