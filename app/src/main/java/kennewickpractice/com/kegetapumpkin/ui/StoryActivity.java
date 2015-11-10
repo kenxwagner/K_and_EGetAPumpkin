@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import kennewickpractice.com.kegetapumpkin.R;
+import kennewickpractice.com.kegetapumpkin.model.Choice;
 import kennewickpractice.com.kegetapumpkin.model.Page;
 import kennewickpractice.com.kegetapumpkin.model.Story;
 
@@ -51,7 +52,7 @@ public class StoryActivity extends AppCompatActivity {
         loadPage(0);
     }
     private void loadPage(int choice) {
-        mCurrentPage = mStory.getPage(0);
+        mCurrentPage = mStory.getPage(choice);
 
         Drawable drawable = ContextCompat.getDrawable(this, mCurrentPage.getImageId());
         mImageView.setImageDrawable(drawable);
@@ -63,8 +64,8 @@ public class StoryActivity extends AppCompatActivity {
 
         if (mCurrentPage.isFinal()){
 
-            mChoice1.setVisibility(View.INVISIBLE);
-            mChoice2.setVisibility(View.INVISIBLE);
+            mChoice1.setVisibility(View.GONE);
+            mChoice2.setVisibility(View.GONE);
             mChoice3.setText("PLAY AGAIN");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -73,33 +74,40 @@ public class StoryActivity extends AppCompatActivity {
                 }
             });
         }
-        mChoice1.setText(mCurrentPage.getChoice1().getText());
-        mChoice2.setText(mCurrentPage.getChoice2().getText());
-        mChoice3.setText(mCurrentPage.getChoice3().getText());
+        else {
+            // and if to take care of empty text
+            mChoice1.setText(mCurrentPage.getChoice1().getText());
+            mChoice2.setText(mCurrentPage.getChoice2().getText());
+            mChoice3.setText(mCurrentPage.getChoice3().getText());
 
-        mChoice1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int nextPage = mCurrentPage.getChoice1().getNextPage();
-                loadPage(nextPage);
-            }
-        });
 
-        mChoice2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int nextPage = mCurrentPage.getChoice2().getNextPage();
-                loadPage(nextPage);
-            }
-        });
 
-        mChoice3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int nextPage = mCurrentPage.getChoice3().getNextPage();
-                loadPage(nextPage);
-            }
-        });
+
+            mChoice1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int nextPage = mCurrentPage.getChoice1().getNextPage();
+                    loadPage(nextPage);
+                }
+
+            });
+
+            mChoice2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int nextPage = mCurrentPage.getChoice2().getNextPage();
+                    loadPage(nextPage);
+                }
+            });
+
+            mChoice3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int nextPage = mCurrentPage.getChoice3().getNextPage();
+                    loadPage(nextPage);
+                }
+            });
+        }
     }
 
 }
