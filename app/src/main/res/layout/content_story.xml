@@ -55,7 +55,7 @@
         android:layout_alignStart="@+id/choiceButton1"
         android:background="@android:color/white"
         android:clickable="false"
-        android:visibility="gone"
+        android:visibility="visible"
         android:textColor="#da4a07"/>
 
     <Button
@@ -67,7 +67,7 @@
         android:layout_centerHorizontal="true"
         android:background="@android:color/white"
         android:clickable="false"
-        android:visibility="gone"
+        android:visibility="visible"
         android:textColor="#da4a07"/>
 
 </RelativeLayout>

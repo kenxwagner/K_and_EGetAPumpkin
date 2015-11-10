@@ -61,6 +61,18 @@ public class StoryActivity extends AppCompatActivity {
         pageText = String.format(pageText, mName);
         mTextView.setText(pageText);
 
+        if (mCurrentPage.isFinal()){
+            mChoice2.setVisibility(View.GONE);
+
+            mChoice3.setText("PLAY AGAIN");
+            mChoice1.setVisibility(View.GONE);
+            mChoice3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                }
+            });
+        }
         mChoice1.setText(mCurrentPage.getChoice1().getText());
         mChoice2.setText(mCurrentPage.getChoice2().getText());
         mChoice3.setText(mCurrentPage.getChoice3().getText());

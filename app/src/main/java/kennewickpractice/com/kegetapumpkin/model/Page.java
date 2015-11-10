@@ -20,12 +20,12 @@ public class Page {
 
     }
 
-    public boolean ismIsFinal() {
+    public boolean isFinal() {
         return mIsFinal;
     }
 
-    public void setmIsFinal(boolean mIsFinal) {
-        this.mIsFinal = mIsFinal;
+    public void setFinal(boolean isFinal) {
+        this.mIsFinal = isFinal;
     }
 
     public Page(int imageId, String text) {
