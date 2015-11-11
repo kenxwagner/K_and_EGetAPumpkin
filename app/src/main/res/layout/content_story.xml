@@ -61,17 +61,4 @@
         android:textColor="#da4a07"
         android:elegantTextHeight="true"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/choiceButton3"
-        android:layout_above="@+id/choiceButton2"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/white"
-        android:clickable="false"
-        android:visibility="visible"
-        android:textColor="#da4a07"
-        android:elegantTextHeight="true"/>
-
 </RelativeLayout>

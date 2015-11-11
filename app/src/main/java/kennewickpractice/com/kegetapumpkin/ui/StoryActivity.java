@@ -26,7 +26,6 @@ public class StoryActivity extends AppCompatActivity {
     private TextView mTextView;
     private Button mChoice1;
     private Button mChoice2;
-    private Button mChoice3;
     private String mName;
     private Page mCurrentPage;
 
@@ -47,7 +46,6 @@ public class StoryActivity extends AppCompatActivity {
         mTextView = (TextView)findViewById(R.id.storyTextView);
         mChoice1 = (Button)findViewById(R.id.choiceButton1);
         mChoice2 = (Button)findViewById(R.id.choiceButton2);
-        mChoice3 = (Button)findViewById(R.id.choiceButton3);
 
         loadPage(0);
     }
@@ -64,10 +62,10 @@ public class StoryActivity extends AppCompatActivity {
 
         if (mCurrentPage.isFinal()){
 
-            mChoice1.setVisibility(View.GONE);
-            mChoice2.setVisibility(View.GONE);
-            mChoice3.setText("PLAY AGAIN");
-            mChoice3.setOnClickListener(new View.OnClickListener() {
+            mChoice1.setVisibility(View.INVISIBLE);
+
+            mChoice2.setText("PLAY AGAIN");
+            mChoice2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     finish();
@@ -76,20 +74,9 @@ public class StoryActivity extends AppCompatActivity {
         }
         else {
 
-            if (mCurrentPage.getChoice2() == null) {
-                mChoice1.setVisibility(View.GONE);
-                mChoice2.setVisibility(View.GONE);
-            }
-            else if (mCurrentPage.getChoice1() == null) {
-                mChoice1.setVisibility(View.GONE);
-            }
-            else {// and if to take care of empty text
-                mChoice1.setText(mCurrentPage.getChoice1().getText());
-                mChoice2.setText(mCurrentPage.getChoice2().getText());
-                mChoice3.setText(mCurrentPage.getChoice3().getText());
-            }
-
-
+           // and if to take care of empty text
+            mChoice1.setText(mCurrentPage.getChoice1().getText());
+            mChoice2.setText(mCurrentPage.getChoice2().getText());
 
 
             mChoice1.setOnClickListener(new View.OnClickListener() {
@@ -109,13 +96,7 @@ public class StoryActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice3.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    int nextPage = mCurrentPage.getChoice3().getNextPage();
-                    loadPage(nextPage);
-                }
-            });
+
         }
     }
 
