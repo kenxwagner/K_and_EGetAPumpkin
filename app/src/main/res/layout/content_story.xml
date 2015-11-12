@@ -37,13 +37,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Continue down path"
-        android:id="@+id/choiceButton1"
+        android:id="@+id/choiceButton2"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/storyTextView"
         android:layout_alignStart="@+id/storyTextView"
         android:background="@android:color/white"
         android:clickable="false"
-        android:elegantTextHeight="true"
+        android:elegantTextHeight="false"
         android:textColor="#da4a07"
         />
 
@@ -51,14 +51,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="New Button"
-        android:id="@+id/choiceButton2"
-        android:layout_above="@+id/choiceButton1"
-        android:layout_alignLeft="@+id/choiceButton1"
-        android:layout_alignStart="@+id/choiceButton1"
+        android:id="@+id/choiceButton1"
+        android:layout_above="@+id/choiceButton2"
+        android:layout_alignLeft="@+id/choiceButton2"
+        android:layout_alignStart="@+id/choiceButton2"
         android:background="@android:color/white"
         android:clickable="false"
         android:visibility="visible"
         android:textColor="#da4a07"
-        android:elegantTextHeight="true"/>
+        android:elegantTextHeight="false"/>
 
 </RelativeLayout>

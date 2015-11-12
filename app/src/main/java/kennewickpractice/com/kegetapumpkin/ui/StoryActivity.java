@@ -12,7 +12,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import kennewickpractice.com.kegetapumpkin.R;
-import kennewickpractice.com.kegetapumpkin.model.Choice;
 import kennewickpractice.com.kegetapumpkin.model.Page;
 import kennewickpractice.com.kegetapumpkin.model.Story;
 
@@ -44,7 +43,7 @@ public class StoryActivity extends AppCompatActivity {
 
         mImageView = (ImageView)findViewById(R.id.storyImageView);
         mTextView = (TextView)findViewById(R.id.storyTextView);
-        mChoice1 = (Button)findViewById(R.id.choiceButton1);
+        mChoice1 = (Button)findViewById(R.id.choiceButton2);
         mChoice2 = (Button)findViewById(R.id.choiceButton2);
 
         loadPage(0);
