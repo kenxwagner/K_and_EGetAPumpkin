@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-9c85230cf3bce48eb33b7ee42e6df8887a1999e7.jar" />
-    </item>
-    <item
-        jar="C:\Users\ken.wagner\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-6a3c197e6b8cab654af61ef9551eb5885f36183b.jar" />
-    </item>
-    <item
-        jar="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-24e7c05efc786129f96f99ad6d485633cfdd0896.jar" />
-    </item>
-    <item
-        jar="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jar="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-f8665cdf60582ea06091afc2524180a653dad734.jar" />
+        <dex dex="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-4e356c265866966152abee0eeb391330ef48227c.jar" />
     </item>
     <item
-        jar="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jar="C:\Users\Ken\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-d4a3a54987b745088037cc1f3930851a89216819.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-56c63618bb64421f784707d13a5daeae146cd161.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-738336b2c5e5bfe09db8310fc0696e80987891d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-1b72f60f0d1da7923e4fcf8e2658ca22f962a718.jar" />
+        <dex dex="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-54dd429d790737965ba30b5d417f2f0c4bcced4d.jar" />
     </item>
     <item
-        jar="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jar="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="C:\Users\ken.wagner\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-27ece8bf2b526d68a0d92d0b5c90abe91df8a8bc.jar" />
+        <dex dex="C:\Users\Ken\Documents\GitHub\K_and_EGetAPumpkin\app\build\intermediates\pre-dexed\debug\classes-db173846c66b759baff4e54b618685e941512eb4.jar" />
     </item>
 
 </items>
