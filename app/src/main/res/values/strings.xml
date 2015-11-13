@@ -8,4 +8,7 @@
     <string name="title_activity_story">Story Activity</string>
     <string name="title_name">Title</string>
     <string name="temp_fill_text">You have arrived at the Coffee Shop, the parents of K and E get coffee. K and E get hot chocolate, and so do you, %1$s!  Finish your drink and we will go to the Pumpkin Patch.</string>
+    <string name="button_1">Go to the Coffee Shop</string>
+    <string name="button_2">Go to the Pumpkin Patch</string>
+
 </resources>

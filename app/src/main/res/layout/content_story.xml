@@ -36,21 +36,20 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Continue down path"
+        android:text="@string/button_2"
         android:id="@+id/choiceButton2"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/storyTextView"
         android:layout_alignStart="@+id/storyTextView"
         android:background="@android:color/white"
         android:clickable="false"
-        android:elegantTextHeight="false"
         android:textColor="#da4a07"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/button_1"
         android:id="@+id/choiceButton1"
         android:layout_above="@+id/choiceButton2"
         android:layout_alignLeft="@+id/choiceButton2"
@@ -58,7 +57,6 @@
         android:background="@android:color/white"
         android:clickable="false"
         android:visibility="visible"
-        android:textColor="#da4a07"
-        android:elegantTextHeight="false"/>
+        android:textColor="#da4a07" />
 
 </RelativeLayout>
