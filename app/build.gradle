@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "kennewickpractice.com.kegetapumpkin"
+        applicationId "built2gsd.com.kegetapumpkin"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
@@ -13,8 +13,8 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }

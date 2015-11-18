@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="kennewickpractice.com.kegetapumpkin.ui.StoryActivity">
+    tools:context="built2gsd.com.kegetapumpkin.ui.StoryActivity">
 
 
 

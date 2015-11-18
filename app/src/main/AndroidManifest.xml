@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kennewickpractice.com.kegetapumpkin" >
+    package="built2gsd.com.kegetapumpkin" >
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ui.MainActivity"
+            android:name="built2gsd.com.kegetapumpkin.ui.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -20,14 +20,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.StoryActivity"
+            android:name="built2gsd.com.kegetapumpkin.ui.StoryActivity"
             android:label="@string/title_activity_story"
-            android:parentActivityName=".ui.MainActivity"
+            android:parentActivityName="built2gsd.com.kegetapumpkin.ui.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.MainActivity" />
+                android:value="built2gsd.com.kegetapumpkin.ui.MainActivity" />
         </activity>
     </application>
 
