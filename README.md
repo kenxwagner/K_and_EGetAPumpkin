@@ -1,2 +1,3 @@
 # K_and_EGetAPumpkin
-almost ready
+This is currently published.
+Updates expected
